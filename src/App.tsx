@@ -1,16 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import FormLogin from './components/form/FormLogin';
+import AppRouter from './routes/AppRouter';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <div>
-      <h1 className='text-red-500'>Salve Tropa</h1>
-      
-    </div>
-  )
+    <AppRouter />
+  );
 }
-
-export default App
